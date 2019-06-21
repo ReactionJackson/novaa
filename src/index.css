@@ -1,0 +1,22 @@
+
+body {
+
+    background-color: #fff;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+}
+
+@font-face {
+
+    font-family: 'Domaine';
+    src: url('./fonts/domaine/DomaineDispNar-Bold.eot');
+    src: url('./fonts/domaine/DomaineDispNar-Bold.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/domaine/DomaineDispNar-Bold.woff2') format('woff2'),
+         url('./fonts/domaine/DomaineDispNar-Bold.woff') format('woff'),
+         url('./fonts/domaine/DomaineDispNar-Bold.ttf') format('truetype'),
+         url('./fonts/domaine/DomaineDispNar-Bold.svg#DomaineDispNar-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
