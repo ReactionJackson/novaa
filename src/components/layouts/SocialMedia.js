@@ -7,6 +7,7 @@ import { Logo, MenuItem } from "../styles/Typography.js"
 
 const Container = styled.ul`
 
+	z-index: 300;
 	display: flex;
 	justify-content: space-between;
 	position: absolute;

@@ -1,6 +1,7 @@
 
 body {
 
+    overflow: hidden;
     background-color: #fff;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;

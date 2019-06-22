@@ -49,21 +49,13 @@ export const H3 = styled.h3`
 
 export const MenuItem = styled.li`
 
+	position: relative;
 	font: 700 14px / 14px ${ fontSecondary };
 	letter-spacing: .2em;
 	text-transform: uppercase;
 	color: ${ props => props.color || colorWhite };
 	margin-right: ${ spacing / 2 }px;
 
-	:first-of-type {
-
-		margin-left: auto;
-	}
-
-	:last-child {
-
-		margin-right: 0;
-	}
 `
 
 export const H4 = styled.h4`
